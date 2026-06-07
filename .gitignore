@@ -11,5 +11,24 @@
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
 
-dist/
+/dist/
 .todo
+
+*.nupkg
+.vscode/
+.idea/
+
+# Path for actions cache created when running tests
+pkg/runner/act/
+
+# act binary
+dist/local/act
+
+coverage.txt
+unit-tests.xml
+
+.env
+.secrets
+
+# megalinter
+report/
